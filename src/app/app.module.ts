@@ -9,7 +9,7 @@ import { StoreComponent } from './components/store/store.component';
 import { HomeComponent } from './components/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './components/store/header/header.component';
-import { TestComponent } from './components/test/test.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +19,6 @@ import { TestComponent } from './components/test/test.component';
     StoreComponent,
     HomeComponent,
     HeaderComponent,
-    TestComponent
   ],
   imports: [
     BrowserModule,
